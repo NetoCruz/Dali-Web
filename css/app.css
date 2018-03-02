@@ -1,0 +1,23 @@
+#social{
+background-color: #F4D06F;
+height: 25px;
+
+}
+#head{
+	background-image: url("../images/Dali2.jpg"); 
+	color: white;
+	height: 579px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 250px;
+	font-family: 'Pacifico', cursive;
+	font-size: 70pt;
+
+}
+
+#bio{
+	background-color: #234B92;
+	color: white;
+	padding-top: 50px;
+	font-family: 'Mukta Malar', sans-serif;
+}
