@@ -12,6 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Mukta+Malar" rel="stylesheet">
   </head>
   <body>
+    
+
+  <section id="head">
+
     <section id="social">
     <div class="row align-center text-center">
       <div class="column small-1">
@@ -28,19 +32,33 @@
       </div>
     </div>
   </section>
+  
+    <section id="scrollSticky" data-sticky-container >
+  <div class="data-sticky"  data-sticky  data-options="marginTop:0"; data-sticky-on="small" data-top-anchor="scrollSticky">
+    <section id="menu" >
+    <nav  class="menu align-center" data-magellan>
+       
+          <li><a href="#bio">Biografia</a></li>
+          <li><a href="#obras">Obras</a></li>
+          <li><a href="#">Frases</a></li>
 
-  <section id="head">
-    <div  class="row"> 
-      <div class="column medium-6 text-center">
-        Dalí
-      </div>
+        
+        </nav>
+        </div>
+      </section>
+  </section>
+    <div class="hero-full-screen">
       
+   <div class="middle-content-section">
+    <h1 id="title">Dalí</h1>
+    
+  </div>
 
     </div>
 
   </section>
 
-  <section id="bio">
+  <section id="bio" data-magellan-target="bio">
     <div  class="row align-center"> 
       <!-- <div class="column medium-6 text-center">
         
@@ -49,7 +67,13 @@
   
   <p>Salvador Felipe Jacinto Dalí i Domènech,1​ marqués de Dalí de Púbol (Figueras, 11 de mayo de 1904-ibídem, 23 de enero de 1989), fue un pintor, escultor, grabador, escenógrafo y escritor español del siglo XX. Se le considera uno de los máximos representantes del surrealismo.
 
-        Salvador Dalí es conocido por sus impactantes y oníricas imágenes surrealistas. Sus habilidades pictóricas se suelen atribuir a la influencia y admiración por el arte renacentista. También fue un experto dibujante.2​3​ Los recursos plásticos dalinianos también abordaron el cine, la escultura y la fotografía, lo cual le condujo a numerosas colaboraciones con otros artistas audiovisuales. Tuvo la capacidad de acrisolar un estilo genuinamente personal y palpable al primer contacto, que en realidad era muy ecléctico y que «succionó» de innovaciones ajenas. Una de sus pinturas más célebres es La persistencia de la memoria, realizada en 1931.</p>
+        Salvador Dalí es conocido por sus impactantes y oníricas imágenes surrealistas. Sus habilidades pictóricas se suelen atribuir a la influencia y admiración por el arte renacentista. También fue un experto dibujante.2​3​ Los recursos plásticos dalinianos también abordaron el cine, la escultura y la fotografía, lo cual le condujo a numerosas colaboraciones con otros artistas audiovisuales. Tuvo la capacidad de acrisolar un estilo genuinamente personal y palpable al primer contacto, que en realidad era muy ecléctico y que «succionó» de innovaciones ajenas. Una de sus pinturas más célebres es La persistencia de la memoria, realizada en 1931.
+        
+        Dalí se deja influir primero por el futurismo, por el cubismo después (1925). En abril de 1926 Dalí viaja por primera vez a Paris donde visita a Picasso. En su segundo viaje a París, en 1929, asiste al rodaje de la película de Buñuel “El perro Andaluz“ de la cual Dalí es coguionista, y Miró le presenta al grupo de los surrealistas. Dalí encuentra a André Breton y ……a Gala, su futura esposa y musa (casada en aquel entonces con Paul Eluard). Adhiere al movimiento surrealista en 1929. Dali se interesa por las teorías sicoanalíticas de Freud y define su método “paranóico-critico“. Pinta en aquel periodo espacios oníricos y fantasmagóricos poblados de elementos simbólicos : relojes blandos, muletas, animales fantásticos, personajes retorcidos. Dalí participa todavía a las manifestaciones y exposiciones surrealistas después de su exclusión en 1934. Dalí interpreta a su modo varias obras famosas, como el Ángelus de Millet, dando varias versiones de ellas. Breton le apoda ¡ “Ávida Dólar” ! 
+Después de la guerra civil española se compromete políticamente a favor de Franco. A partir de los años 40 declara que quiere acercarse a la realidad y retorna a una expresión pictórica más clásica, sin dejar de imprimir en sus obras su fantasía personal. 
+Los temas recurrentes tanto en su obra pintada como en la obra grabada son la mujer, el sexo, la religión, las batallas. Dalí se exhibe en espectáculos peculiares a lo largo de su carrera, mezclando el arte y la vida, poniéndose en escena constantemente. Tras diez años de esfuerzos, Dalí abre su propio museo : en 1974, tiene lugar la inauguración del Teatro Museo Dalí. La última pasión de Dalí fue la pintura “estereoscópica” (1975) y presenta su primera obra “hiper estereoscópica” en Nueva York en 1978. 
+Dalí que se calificaba a sí mismo de “caníbal”, “megalomaníaco” y de “perverso polimorfo” muere en Barcelona (España) en 1989.
+      </p>
   
 </div>
 
@@ -57,6 +81,57 @@
       
 
     </div>
+
+  </section>
+
+  <section id="obras" data-magellan-target="obras">
+    <div class="row">
+      <div class="large-12 column text-center">
+        <p>Obras Pictóricas</p>
+      </div>
+    </div>
+
+    <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="images/d-1.jpg" alt="Space">
+          <figcaption class="orbit-caption">Obra 1</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="images/d-2.jpg" alt="Space">
+          <figcaption class="orbit-caption">Obra 2</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="images/d-3.jpg" alt="Space">
+          <figcaption class="orbit-caption">Obra 3</figcaption>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+        <figure class="orbit-figure">
+          <img class="orbit-image" src="images/d-4.jpg" alt="Space">
+          <figcaption class="orbit-caption">Obra 5</figcaption>
+        </figure>
+      </li>
+    </ul>
+  </div>
+  <nav class="orbit-bullets">
+    <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+    <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+    <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+    <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+  </nav>
+</div>
+    
 
   </section>
 

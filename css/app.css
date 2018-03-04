@@ -1,18 +1,61 @@
+
 #social{
 background-color: #F4D06F;
 height: 25px;
 
 }
-#head{
+/*#head{
 	background-image: url("../images/Dali2.jpg"); 
 	color: white;
-	height: 579px;
+	
+	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 250px;
+	
 	font-family: 'Pacifico', cursive;
-	font-size: 70pt;
+	
 
+}*/
+.hero-full-screen {
+  height: 100vh;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: url("../images/Dali2.jpg") center center no-repeat;
+  background-size: cover;
+}
+
+.hero-full-screen .middle-content-section {
+  text-align: center;
+  margin-top: 250px;
+  
+  
+}
+
+#title{
+	font-family: 'Pacifico', cursive;
+  font-size: 70pt;
+}
+#obras p{
+	font-family: 'Pacifico', cursive;
+  font-size: 60pt;
+  color: white;
+}
+#obras{
+	background-color: #234B92;
+}
+#menu{
+	background-color: #E54B4B;
+	
 }
 
 #bio{
@@ -20,4 +63,12 @@ height: 25px;
 	color: white;
 	padding-top: 50px;
 	font-family: 'Mukta Malar', sans-serif;
+     
+}
+
+@media only screen and (max-width: 500px){
+	#head{
+	background-size: cover;
+	
+	height: 309px;
 }
