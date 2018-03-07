@@ -66,9 +66,37 @@ height: 25px;
      
 }
 
+.card-info {
+  background: #fefefe;
+  border: 1px solid #8a8a8a;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  margin: 1rem 0;
+  overflow: hidden;
+  border-radius: 0;
+}
+
+#word{
+	background-color: #F4D06F;
+}
+#word h3{
+	font-family: 'Pacifico', cursive;
+  font-size: 60pt;
+  color: white;
+}
+#word p{
+	font-size: 15pt;
+}
+.card-info .card-info-label {
+	
+  border-color: transparent #8a8a8a transparent transparent;
+  border-color: rgba(255, 255, 255, 0) #8a8a8a rgba(255, 255, 255, 0) rgba(255, 255, 255, 0);
+}
+
 @media only screen and (max-width: 500px){
 	#head{
 	background-size: cover;
 	
 	height: 309px;
 }
+
+
